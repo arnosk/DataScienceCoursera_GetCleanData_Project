@@ -88,7 +88,7 @@ renameactivities = function(df) {
 
 # Main program
 # Run this script to analyse the data
-analyse = function() {
+run_analysis = function() {
     # Download data
     downloaddata()
     

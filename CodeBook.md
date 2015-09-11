@@ -1,4 +1,4 @@
-# The original data set
+## The original data set
 
 The original data set is split into training and test sets (70% and 30%,
 respectively) where each partition is also split into three files that contain
@@ -6,7 +6,7 @@ respectively) where each partition is also split into three files that contain
 - activity label
 - identifier of the subject
 
-# Getting and cleaning data
+## Getting and cleaning data
 
 The first step of the preprocessing is to merge the training and test
 sets. Two sets combined, there are 10,299 instances where each
