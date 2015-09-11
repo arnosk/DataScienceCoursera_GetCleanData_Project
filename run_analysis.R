@@ -119,4 +119,5 @@ run_analysis = function() {
     tidy <- ddply(combined, .(subject, activity), function(x) colMeans(x[,1:60]))
     # Write tidy dataset as csv
     write.csv(tidy, "UCI_HAR_tidy.csv", row.names=FALSE)
+    write.table(tidy, "UCI_HAR_tidy.txt", row.names=FALSE)
 }
